@@ -2,7 +2,7 @@ const followBtn = document.getElementById('followBtn');
 
 followBtn.addEventListener('click', () => {
   if (followBtn.textContent === 'Takip Et') {
-    followBtn.textContent = 'Takip Ediliyor';
+    followBtn.textContent = 'TAKİPTESİN';
     followBtn.style.backgroundColor = 'green'; // Butonun rengi yeşil olsun
     followBtn.style.color = 'white';
   } else {
